@@ -1,0 +1,13 @@
+.column { 
+    float: left; 
+    width: 50%; /* Each column takes half the width */ 
+    height: 100vh;
+    padding: 20px; 
+    box-sizing: border-box; 
+} 
+.left { 
+    background-color: #f8f9fa; 
+} 
+.right { 
+    background-color: #e9ecef; 
+} 

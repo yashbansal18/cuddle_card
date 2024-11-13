@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Header styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  /* Dummy icon */
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon::before {
+    content: "🔍"; /* Replace with any icon or actual image */
+    font-size: 24px;
+    margin-right: 8px;
+  }
+
+  /* Buttons */
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
